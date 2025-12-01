@@ -38,7 +38,10 @@ The full adder computes the sum of three inputs: `A`, `B`, and `Carry-In (Cin)`.
 * **Cout** = $(A \cdot B) + (C_{in} \cdot (A \oplus B))$
 
 ### Circuit Schematic
+
+<div align = "center">
 <img width="742" height="383" alt="image" src="https://github.com/user-attachments/assets/38970f55-aecc-4946-aa7b-bec04788ada7" />
+</div>
 
 ---
 
@@ -59,11 +62,15 @@ Verilog will be used to model the function of an ideal full-adder.
 * Key Characteristic: It consumes almost zero static power. Power is only consumed during the switching moment (dynamic power).
 * It dissipates very little heat and can be made microscopic, it allows us to pack billions of transistors onto modern CPUs and GPUs.
 * A basic CMOS inverted is shown below:
+
+<div align = "center">
 <img width="277" height="490" alt="image" src="https://github.com/user-attachments/assets/1a91f2f8-0d2f-4d76-936d-3fa312e1caf1" />
+</div>
 
 ---
 
 What will actually be implemented in LTspice is as shown below. The AND gate consists of a NAND gate and an inverter, the OR gate is constructed with a similar manner. This is because the NOR and NAND gates are universal gates and the CMOS structure with the pull-up and pull-down networks do not provide AND gates or OR gates directly.
 
+<div align = "center">
 <img width="993" height="390" alt="image" src="https://github.com/user-attachments/assets/2b98c897-53fa-4ddd-a021-d50b349d53dd" />
-
+</div>
