@@ -62,3 +62,8 @@ Verilog will be used to model the function of an ideal full-adder.
 <img width="277" height="490" alt="image" src="https://github.com/user-attachments/assets/1a91f2f8-0d2f-4d76-936d-3fa312e1caf1" />
 
 ---
+
+What will actually be implemented in LTspice is as shown below. The AND gate consists of a NAND gate and an inverter, the OR gate is constructed with a similar manner. This is because the NOR and NAND gates are universal gates and the CMOS structure with the pull-up and pull-down networks do not provide AND gates or OR gates directly.
+
+<img width="993" height="390" alt="image" src="https://github.com/user-attachments/assets/2b98c897-53fa-4ddd-a021-d50b349d53dd" />
+
